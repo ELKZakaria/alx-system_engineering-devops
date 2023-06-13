@@ -1,8 +1,3 @@
 #!/bin/bash
 
-if [ -z "$NUM" ]
-then
-	exit 1
-fi
-
 printf "%.2f\n" "$NUM"
